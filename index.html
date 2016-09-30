@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DerpyBot</title>
+</head>
+<body>
+  <p>nothing to see here</p>
+  
+  <img id="gif" src="https://media.giphy.com/media/BhLtjP9zcgQDu/giphy.gif">
+
+  <p>are you looking for <a href="http://franciscog.com/DerpyBot/commands/">this</a>?</p>
+  <script>
+    var getRandom = function (list) {
+      return list[Math.floor((Math.random()*list.length))];
+    };
+    
+    var imgs = [
+      'https://media.giphy.com/media/BhLtjP9zcgQDu/giphy.gif',
+      'https://media.giphy.com/media/i4gjUA7Lu7VDy/giphy.gif',
+      'https://media.giphy.com/media/OqIXcaiuaylm8/giphy.gif',
+      'https://media.giphy.com/media/NzXJsoY895vcQ/giphy.gif',
+      'https://media.giphy.com/media/mBgeImIxW6C0o/giphy.gif'
+    ];
+    var gif = document.getElementById('gif');
+    gif.src = getRandom(gif);
+
+  </script>)
+</body>
+</html>
